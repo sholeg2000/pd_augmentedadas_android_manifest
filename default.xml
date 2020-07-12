@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin" fetch="ssh://git@bitbucket.org/apostera/"/>
+
+    <default remote="origin" clone-depth="1" sync-c="true" sync-j="4"/>
+
+    <project path="android" name="pd_augmentedadas_android" remote="origin" revision="develop"/>
+
+</manifest>
