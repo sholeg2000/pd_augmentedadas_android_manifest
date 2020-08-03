@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin" fetch="ssh://git@bitbucket.org/apostera/"/>
+    <remote name="bitbucket" fetch="ssh://git@bitbucket.org/" />
+    <remote name="github" fetch="https://git@github.com/" />
 
     <default remote="origin" clone-depth="1" sync-c="true" sync-j="4"/>
+
+    <project path="integration/buildtools" name="pf_unit_devops_buildtools" remote="origin" revision="refs/tags/v1.32.0"/>
+    <project path="integration/docker" name="pf_tool_devops_dockerenv" remote="origin" revision="android-develop">
+        <linkfile src="ubuntu-android-studio/run-docker.sh" dest="run-docker.sh" />
+    </project>
+    <project path="integration/project" name="pd_augmentedadas_android_project" remote="origin" revision="develop">
+        <linkfile src="CMakeLists.txt" dest="CMakeLists.txt" />
+    </project>
+
+    <project path="apostera/platform_abstraction/elogger" name="pf_unit_nl_logger" remote="origin" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/platform_abstraction/versioning" name="pf_unit_utility_versioning" remote="origin" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/utils/profiler" name="pf_unit_utility_profiler" remote="origin" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/utils/dsnalgorithms" name="pf_unit_utility_dsnalgorithms" remote="origin" revision="ndk-prebuilt-thirdparty"/>
+
+    <project path="apostera/api" name="pf_interface_platformabstraction" revision="ndk"/>
+
+    <project path="apostera/platform_abstraction/dependency_manager" name="pf_unit_platformabstraction_dependencymanager" remote="origin" revision="refs/tags/v1.4.0"/>
+    <project path="apostera/platform_abstraction/launcher" name="Nikolay-Khilyuk/launcher" remote="bitbucket" revision="develop" />
+
+
+    <project path="apostera/sensors_abstraction/sensorsabstraction" name="pf_unit_sensorsabstraction" remote="origin" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/sensors_abstraction/sensors_module" name="Nikolay-Khilyuk/sensorsmodule" remote="bitbucket" revision="develop" />
 
     <project path="android" name="pd_augmentedadas_android" remote="origin" revision="develop"/>
 
