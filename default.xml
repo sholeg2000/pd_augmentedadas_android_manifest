@@ -30,6 +30,7 @@
     <project path="apostera/sensors_abstraction/sensors_receiver_plugin" name="Nikolay-Khilyuk/sensorsreceiverplugin" remote="bitbucket" revision="develop" />
 
     <project path="apostera/utils/profiler" name="pf_unit_utility_profiler" remote="origin" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/utils/data_serializer" name="pf_unit_utility_dataserializer" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/utils/dsnalgorithms" name="pf_unit_utility_dsnalgorithms" remote="origin" revision="ndk-prebuilt-thirdparty"/>
 
     <project path="android" name="pd_augmentedadas_android" remote="origin" revision="develop"/>
