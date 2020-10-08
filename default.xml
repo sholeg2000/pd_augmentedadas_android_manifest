@@ -6,7 +6,7 @@
 
     <default remote="origin" clone-depth="1" sync-c="true" sync-j="4"/>
 
-    <project path="integration/buildtools" name="pf_unit_devops_buildtools" remote="origin" revision="refs/tags/v1.32.0"/>
+    <project path="integration/buildtools" name="pf_unit_devops_buildtools" remote="origin" revision="refs/tags/arcreator_prototype_v1.21.0"/>
     <project path="integration/docker" name="pf_tool_devops_dockerenv" remote="origin" revision="android-develop">
         <linkfile src="ubuntu-android-studio/run-docker.sh" dest="run-docker.sh" />
     </project>
