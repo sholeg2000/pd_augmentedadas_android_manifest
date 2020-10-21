@@ -21,6 +21,7 @@
     <project path="apostera/api/settings" name="pf_interface_settings" revision="refs/tags/v1.3.0"/>
     <project path="apostera/api/settings_project" name="Nikolay-Khilyuk/api_settings_project" remote="bitbucket" revision="develop"/>
 
+    <project path="apostera/hmi/display_control" name="pf_unit_platformabstraction_displaycontrol" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/graphic_framework" name="pf_unit_hmi_graphicframework" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/output_view" name="pf_unit_hmi_outputview" remote="origin" revision="refs/tags/v1.33.0"/>
     <project path="apostera/hmi/rendering_engine" name="pf_unit_hmi_renderingengine" remote="origin" revision="refs/tags/v1.96.0"/>
