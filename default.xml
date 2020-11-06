@@ -24,7 +24,7 @@
     <project path="apostera/hmi/display_control" name="pf_unit_platformabstraction_displaycontrol" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/graphic_framework" name="pf_unit_hmi_graphicframework" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/output_view" name="pf_unit_hmi_outputview" remote="origin" revision="refs/tags/v1.33.0"/>
-    <project path="apostera/hmi/rendering_engine" name="pf_unit_hmi_renderingengine" remote="origin" revision="refs/tags/v1.96.0"/>
+    <project path="apostera/hmi/rendering_engine" name="pf_unit_hmi_renderingengine" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/service_dispatcher" name="pf_unit_hmi_servicedispatcher" remote="origin" revision="ndk-prebuilt-thirdparty"/>
 
     <project path="apostera/platform_abstraction/elogger" name="pf_unit_nl_logger" remote="origin" revision="ndk-prebuilt-thirdparty"/>
