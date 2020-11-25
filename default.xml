@@ -29,7 +29,7 @@
     <project path="apostera/hmi/rendering_engine" name="pf_unit_hmi_renderingengine" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/service_dispatcher" name="pf_unit_hmi_servicedispatcher" remote="origin" revision="ndk-prebuilt-thirdparty"/>
 
-    <project path="apostera/hmi/arprimitives_project" name="cp_audi_arcreator_agip_arprimitives" remote="origin" revision="refs/tags/v1.47.0"/>
+    <project path="apostera/hmi/arprimitives_project" name="Nikolay-Khilyuk/arprimitives" remote="bitbucket" revision="develop"/>
     <project path="apostera/hmi/styles_project" name="cp_audi_arcreator_agip_styles" remote="origin" revision="refs/tags/v1.34.0"/>
 
     <project path="apostera/platform_abstraction/elogger" name="pf_unit_nl_logger" remote="origin" revision="ndk-prebuilt-thirdparty"/>
