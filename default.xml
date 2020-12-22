@@ -21,7 +21,8 @@
     <project path="apostera/api/platformabstraction" name="pf_interface_platformabstraction" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/api/sensorsabstraction" name="pf_interface_sensorsabstraction" revision="refs/tags/v1.9.1"/>
     <project path="apostera/api/settings" name="pf_interface_settings" revision="refs/tags/v1.3.0"/>
-    <project path="apostera/api/settings_project" name="Nikolay-Khilyuk/api_settings_project" remote="bitbucket" revision="develop"/>
+    <project path="apostera/api/settings_project/settings" name="cp_audi_arcreator_agip_interface_settings" revision="refs/tags/v1.5.0"/>
+    <project path="apostera/api/settings_project/settings/core" name="cp_audi_arcreator_core_agip_interface_settings" revision="refs/tags/v1.3.0"/>
 
     <project path="apostera/environmentfusion/shakecompensation" name="pf_unit_environmentfusion_shakecompensation" revision="refs/tags/v1.12.1"/>
 
