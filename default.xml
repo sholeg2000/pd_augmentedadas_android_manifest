@@ -15,14 +15,14 @@
     </project>
 
     <project path="apostera/api/common" name="pf_interface_common" revision="ndk-prebuilt-thirdparty"/>
-    <project path="apostera/api/diagnosis" name="pf_interface_diagnosis" revision="refs/tags/v1.2.2"/>
-    <project path="apostera/api/environmentfusion" name="pf_interface_environmentfusion" revision="refs/tags/v1.8.0"/>
-    <project path="apostera/api/hmi" name="pf_interface_hmi" revision="refs/tags/v1.12.0"/>
+    <project path="apostera/api/diagnosis" name="pf_interface_diagnosis" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/api/environmentfusion" name="pf_interface_environmentfusion" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/api/hmi" name="pf_interface_hmi" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/api/platformabstraction" name="pf_interface_platformabstraction" revision="ndk-prebuilt-thirdparty"/>
-    <project path="apostera/api/sensorsabstraction" name="pf_interface_sensorsabstraction" revision="refs/tags/v1.9.1"/>
-    <project path="apostera/api/settings" name="pf_interface_settings" revision="refs/tags/v1.3.0"/>
-    <project path="apostera/api/settings_project/settings" name="cp_audi_arcreator_agip_interface_settings" revision="refs/tags/v1.5.0"/>
-    <project path="apostera/api/settings_project/settings/core" name="cp_audi_arcreator_core_agip_interface_settings" revision="refs/tags/v1.3.0"/>
+    <project path="apostera/api/sensorsabstraction" name="pf_interface_sensorsabstraction" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/api/settings" name="pf_interface_settings" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/api/settings_project/settings" name="Nikolay-Khilyuk/api_settings_project_settings" remote="bitbucket" revision="develop"/>
+    <project path="apostera/api/settings_project/settings/core" name="Nikolay-Khilyuk/api_settings_project_settings_core" remote="bitbucket" revision="develop"/>
 
     <project path="apostera/environmentfusion/shakecompensation" name="pf_unit_environmentfusion_shakecompensation" revision="refs/tags/v1.12.1"/>
 
