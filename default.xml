@@ -6,7 +6,7 @@
 
     <default remote="origin" clone-depth="1" sync-c="true" sync-j="4"/>
 
-    <project path="integration/buildtools" name="pf_unit_devops_buildtools" remote="origin" revision="refs/tags/arcreator_prototype_v1.21.0"/>
+    <project path="integration/buildtools" name="pf_unit_devops_buildtools" remote="origin" revision="refs/tags/v1.34.0"/>
     <project path="integration/docker" name="pf_tool_devops_dockerenv" remote="origin" revision="android-develop">
         <linkfile src="ubuntu-android-studio/run-docker.sh" dest="run-docker.sh" />
     </project>
@@ -24,22 +24,24 @@
     <project path="apostera/api/settings_project/settings" name="Nikolay-Khilyuk/api_settings_project_settings" remote="bitbucket" revision="develop"/>
     <project path="apostera/api/settings_project/settings/core" name="Nikolay-Khilyuk/api_settings_project_settings_core" remote="bitbucket" revision="develop"/>
 
-    <project path="apostera/environmentfusion/shakecompensation" name="pf_unit_environmentfusion_shakecompensation" revision="refs/tags/v1.12.1"/>
+    <project path="apostera/environmentfusion/coordinatesystem" name="pf_unit_environmentfusion_coordinatesystem" revision="refs/tags/v1.13.1"/>
+    <project path="apostera/environmentfusion/environmentfusion" name="pf_unit_environmentfusion" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/environmentfusion/shakecompensation" name="pf_unit_environmentfusion_shakecompensation" revision="refs/tags/v1.21.0"/>
 
     <project path="apostera/hmi/arprimitives" name="pf_unit_hmi_arprimitives" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/augmentation_output_view" name="pf_unit_hmi_augmentationoutputview" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/display_control" name="pf_unit_platformabstraction_displaycontrol" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/graphic_framework" name="pf_unit_hmi_graphicframework" remote="origin" revision="ndk-prebuilt-thirdparty"/>
-    <project path="apostera/hmi/output_view" name="pf_unit_hmi_outputview" remote="origin" revision="refs/tags/v1.33.0"/>
+    <project path="apostera/hmi/output_view" name="pf_unit_hmi_outputview" remote="origin" revision="refs/tags/v1.49.0"/>
     <project path="apostera/hmi/rendering_engine" name="pf_unit_hmi_renderingengine" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/hmi/service_dispatcher" name="pf_unit_hmi_servicedispatcher" remote="origin" revision="ndk-prebuilt-thirdparty"/>
 
     <project path="apostera/hmi/arprimitives_project" name="Nikolay-Khilyuk/arprimitives" remote="bitbucket" revision="develop"/>
-    <project path="apostera/hmi/styles_project" name="cp_audi_arcreator_agip_styles" remote="origin" revision="refs/tags/v1.34.0"/>
+    <project path="apostera/hmi/styles_project" name="cp_audi_arcreator_agip_styles" remote="origin" revision="refs/tags/v1.65.0"/>
 
     <project path="apostera/platform_abstraction/elogger" name="pf_unit_nl_logger" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/platform_abstraction/versioning" name="pf_unit_utility_versioning" remote="origin" revision="ndk-prebuilt-thirdparty"/>
-    <project path="apostera/platform_abstraction/dependency_manager" name="pf_unit_platformabstraction_dependencymanager" remote="origin" revision="refs/tags/v1.4.0"/>
+    <project path="apostera/platform_abstraction/dependency_manager" name="pf_unit_platformabstraction_dependencymanager" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/platform_abstraction/launcher" name="Nikolay-Khilyuk/launcher" remote="bitbucket" revision="develop" />
 
     <project path="apostera/sensors_abstraction/sensorsabstraction" name="pf_unit_sensorsabstraction" remote="origin" revision="ndk-prebuilt-thirdparty"/>
@@ -49,7 +51,7 @@
     <project path="apostera/utils/cpp_extensions" name="pf_unit_utility_cppextensions" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/utils/data_serializer" name="pf_unit_utility_dataserializer" remote="origin" revision="ndk-prebuilt-thirdparty"/>
     <project path="apostera/utils/dsnalgorithms" name="pf_unit_utility_dsnalgorithms" remote="origin" revision="ndk-prebuilt-thirdparty"/>
-    <project path="apostera/utils/profiler" name="pf_unit_utility_profiler" remote="origin" revision="ndk-prebuilt-thirdparty"/>
+    <project path="apostera/utils/profiler" name="pf_unit_utility_profiler" remote="origin" revision="refs/tags/v1.6.1"/>
 
     <project path="android" name="pd_augmentedadas_android" remote="origin" revision="develop"/>
 
