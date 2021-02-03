@@ -45,7 +45,7 @@
     <project path="apostera/platform_abstraction/launcher" name="Nikolay-Khilyuk/launcher" remote="bitbucket" revision="develop" />
 
     <project path="apostera/sensors_abstraction/sensorsabstraction" name="pf_unit_sensorsabstraction" remote="origin" revision="ndk-prebuilt-thirdparty"/>
-    <project path="apostera/sensors_abstraction/sensors_module" name="Nikolay-Khilyuk/sensorsmodule" remote="bitbucket" revision="develop" />
+    <project path="apostera/sensors_abstraction/sensors_module" name="pd_mxr_emb_demo_func_unit_sensabs_sensorsmodule" revision="develop"/>
     <project path="apostera/sensors_abstraction/sensors_receiver_plugin" name="Nikolay-Khilyuk/sensorsreceiverplugin" remote="bitbucket" revision="develop" />
 
     <project path="apostera/utils/cpp_extensions" name="pf_unit_utility_cppextensions" remote="origin" revision="ndk-prebuilt-thirdparty"/>
